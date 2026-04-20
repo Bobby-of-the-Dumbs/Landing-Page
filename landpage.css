@@ -3,29 +3,61 @@
     height: 300px;
     display:flex;
     font-family:"Roboto";
-    justify-content: space-between;
-    flex-flow:wrap;
     padding:32px;
+    flex-flow: column wrap;
+
+   
     
 }
+.top-word {
+    display: flex;
+    font-weight:900px;
+    font-size: 36px;
+    color:#1F2937;
+    align-items: flex-start;
+
+}
+.packages {
+ display: flex;
+ flex-flow: row wrap;
+ height: 300px;
+ align-items: center;
+ justify-content: center;
+
+}
+.crates {
+    border: 64px solid blue;
+    display: flex;
+    flex-flow: wrap;
+    border-radius: 10%;
+   
+}
+
+ .top {
+    display: flex;
+    justify-content: center;
+ }
+
+
  .hero-text {
     font-size: 48px;
     color:#F9FAF8;
     font-weight:900;
     display: flex;
-    align-items: flex-start;
-    
-    gap: 8px;
-    flex-flow:wrap;
-    width: 540px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+   
+
  }
  .smaller-text {
-        font-size: 12px;
-        color: grey;
+        font-size: 18px;
+        color: #E5E7EB;
         display: flex;
-        flex-flow:wrap;
-        width: 480px;
-        
+        width: 600px;
+        align-items: flex-end;
+        justify-content: flex-start;
+        margin-bottom: 40px;
 }
  .secondbox {
     height: 300px;
@@ -38,20 +70,31 @@
     font-size:24px;
     color:#F9FAF8;
     font-weight:900;
-    align-self: center;
+    align-self: flex-start;
     gap:16px;
 }
 ul {
     display: flex;
+    flex-flow: row;
     color: gray;
     gap:16px;
+    justify-content: flex-end;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    
 }
+ button {
+    width: 200px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 700px;
+ }
 
-
-li {
+li, a {
 list-style: none;
 text-decoration: none;
 gap:16px;
-color: gray;
+font-size: 18px;
+color: #E5E7EB;
 }
 
