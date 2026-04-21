@@ -5,9 +5,96 @@
     font-family:"Roboto";
     padding:32px;
     flex-flow: column wrap;
+}
 
+.thirdbox {
+    background-color: #E5E7EB;
+    display: flex;
+    height: 300px;
+}
+.fourthbox {
+ display: flex;
+ height: 300px;
+ justify-content: center;
+ 
+}
+.fifthbox {
+    display: flex;
+    height: 200px;
+    background-color: black;
+    justify-content: center;
+}
+.qt {
+    align-self: center;
+    color:#E5E7EB
+}
+
+
+
+
+.cta {
+   color: #F9FAF8;
+   font-weight: 900;
+   margin: 50px;
+   margin-top: 40px;
+   display: flex;
+}
+.subtext {
+    display: flex;
    
+    font-size: 8px;
+    color: #E5E7EB;
+    margin-left: -127px;
+    margin-top:17px;
     
+   
+}
+
+.signup{
+    margin-left: 266px;
+    font-weight: 900;
+    font-family: "Roboto";
+    border: 3px solid white;
+    border-radius: 2%;
+    padding: 8px;
+    font-size: 7px;
+   
+   
+}
+
+
+
+.bluebot {
+    display: flex;
+    background-color: #3882F6;
+    height: 60px;
+    width: 500px;
+    align-self: center;
+    align-items: center ;
+    justify-content: flex-start;
+     font-family: "Roboto";
+
+}
+.quotation
+ {
+    display: flex;
+    font-weight: bold;
+    align-self: center;
+    margin-left: 160px;
+ }
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+    width: 600px;
+
+
+
+
 }
 .top-word {
     display: flex;
@@ -15,8 +102,22 @@
     font-size: 36px;
     color:#1F2937;
     align-items: flex-start;
+}
+
+
+
+
+.birdphoto,img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 250px;
+    width:auto;
 
 }
+
+
+
 .packages {
  display: flex;
  flex-flow: row wrap;
@@ -25,11 +126,20 @@
  justify-content: center;
 
 }
+.ib{
+    height:127.33px;
+    width: 127.33px;
+    align-self: center;
+    
+}
 .crates {
-    border: 64px solid blue;
+    box-sizing: border-box;
+    padding:63px;
+    border: 1px solid blue;
     display: flex;
     flex-flow: wrap;
     border-radius: 10%;
+    
    
 }
 
