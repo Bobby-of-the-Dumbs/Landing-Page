@@ -6,4 +6,7 @@ The skills gone over this project is :
     CSS
     Github Repo Manuevring
     File Commiting
+
+    Img Attribution ;
+    Bird Photo by Matt Liatkouski: https://www.pexels.com/photo/sandpiper-preening-on-rock-by-ocean-36815599/  (Thank you so much)
     
